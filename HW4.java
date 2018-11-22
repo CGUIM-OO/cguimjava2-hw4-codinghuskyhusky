@@ -1,10 +1,11 @@
 import java.util.ArrayList;
 import java.util.HashMap;
+
 //import java.util.Scanner;
 public class HW4 {
 	public static void main(String[] args) {
 		int nDeck=4;
-		Deck deck=new Deck(nDeck);
+		deck deck=new deck(nDeck);
 		//TODO: please check your output, make sure that 
 		Player player1=new Player("Player 1",100);
 		Player player2=new Player("Player 2",300);
